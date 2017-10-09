@@ -1,0 +1,105 @@
+@import "common.less";
+@import "reset.less";
+.wrap{
+    height: 100%;
+    .bar-footer{
+        position: fixed;
+        bottom: 0;
+        z-index: 99;
+    }
+    .bar-nav{
+        background:@beauty-green;
+        .icon{
+            font-weight: 500;
+        }
+        .icon-left{
+            float: left;
+            font-size: 1rem;
+            color:#fff;
+        }
+        .operate{
+            position: absolute;
+            right: 0.5rem;
+            line-height: 2.2rem;
+            color:#fff;
+        }
+        .management_results{
+            color: #fff;
+        }
+        
+    }
+    .content{
+        padding-bottom: 2.86rem;
+        background:#fff;
+        .content_body{
+            ul{
+                background: #f7f7f8;
+                padding-bottom: 0.8rem;
+                li{
+                    padding: 0.8rem 1rem 0;
+                }
+            }
+            .target,.percentum{
+                display: inline-block;
+                width: 49%;
+                vertical-align: middle;
+            }
+            .target span{
+                display: block;
+            }
+            .target i{
+                font-style: normal;
+                color:@beauty-green ;
+            }
+            .percentum{
+                text-align: center;
+                background: #c1acac;
+                color: #fff;
+                line-height: 1.4rem;
+            }
+        }
+        .show{
+            ul{
+                padding-bottom: 0.8rem;
+                li{
+                    padding: 0.8rem 1rem 0;
+                }
+            }
+            .target{
+                display: inline-block;
+                width: 100%;
+            }
+
+            .target span{
+                border-bottom: 1px solid #fbf3f3;
+                padding: 0.4rem 0;
+                display: block;
+            }
+            .target i{
+                font-style: normal;
+                color:@beauty-green ;
+            }
+            .percentum{
+                text-align: center;
+                background: #c1acac;
+                color: #fff;
+                line-height: 1.4rem;
+            }
+            .content-block{
+                margin: 0.5rem 0;
+                .button{
+                    height: 1.4rem;
+                    line-height: 1.4rem;
+                    font-size: 0.68rem;
+                }
+                .button-danger{
+                    background:@beauty-green;
+                }
+                .edit{
+                    background: #f6383a;
+                }
+            }
+            
+        }
+    }
+} 
