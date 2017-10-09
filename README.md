@@ -1,0 +1,2 @@
+# beauty-wechat
+sui
